@@ -85,7 +85,7 @@ $(document).ready(function () {
             slideSpeed: 10000,
             autoplaySpeed: 800,
             autoplayTimeout: 10000,
-            autoplay: true,
+            autoplay: false,
             
             navText: [
                 '<i class="fi-circle-arrow-left1"></i>',
@@ -139,7 +139,7 @@ $(document).ready(function () {
             slideSpeed: 10000,
             autoplaySpeed: 800,
             autoplayTimeout: 10000,
-            autoplay: true,
+            autoplay: false,
             navText: [
                 '<i class="fi-circle-arrow-left1"></i>',
                 '<i class="fi-circle-arrow-right1"></i>'
@@ -297,3 +297,9 @@ $(document).ready(function () {
           }
         });
       });
+
+// scrollToTop
+
+function scrollToTop() {
+    $(window).scrollTop(0);
+}

@@ -257,6 +257,10 @@
   background-image: url("./../images/hero.jpg");
   background-size: cover;
   background-position: center;
+  height: 87vh;
+  filter: grayscale(1);
+
+
 
   .hero-content {
     position: absolute;

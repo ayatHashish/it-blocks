@@ -173,61 +173,65 @@ a {
   font-weight: 600;
   color: #000000;
   text-transform: capitalize;
-  padding-bottom: 80px; }
+  padding: 100px 0px; }
 
-.owl-nav {
-  right: 0;
-  position: absolute;
-  top: -95px;
-  font-size: 40px;
-  margin: 0px 60px;
-  display: block; }
-  .owl-nav button {
-    /* height: 48px;
-    width: 40px; */ }
-    .owl-nav button i {
-      font-size: 30px;
-      color: #ffffff;
-      background-color: #0c254e;
-      border-radius: 100%;
-      margin: 0 5px; }
-      .owl-nav button i:hover {
-        background-color: #ffffff;
-        color: #0c254e; }
-
-.owl-item.active .slider-item .container .slider-content h2 {
-  animation: fadeInUp 1300ms; }
-.owl-item.active .slider-item .container .slider-content .action-wrapper {
-  animation: fadeInUp 1500ms; }
-
-.owl-nav {
-  display: none; }
-
-.owl-dots {
-  background-color: #e7e7e7;
-  position: absolute;
-  bottom: -17px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
-  max-width: 1440px;
-  margin: 0px auto;
-  display: flex;
-  justify-content: flex-end; }
-  .owl-dots .owl-dot {
-    background-color: #164a9e;
-    margin-right: 15px;
-    opacity: 0.5;
-    border: solid 2px #0c254e;
+.outsourcing-sec {
+  padding-bottom: 20px; }
+  .outsourcing-sec .owl-nav {
+    right: 0;
+    position: absolute;
+    top: -95px;
+    font-size: 40px;
+    margin: 0px 60px;
+    display: block; }
+    .outsourcing-sec .owl-nav button {
+      /* height: 48px;
+      width: 40px; */ }
+      .outsourcing-sec .owl-nav button i {
+        font-size: 30px;
+        color: #ffffff;
+        background-color: #0c254e;
+        border-radius: 100%;
+        margin: 0 5px; }
+        .outsourcing-sec .owl-nav button i:hover {
+          background-color: #ffffff;
+          color: #0c254e; }
+  .outsourcing-sec .owl-item.active .slider-item .container .slider-content h2 {
+    animation: fadeInUp 1300ms; }
+  .outsourcing-sec .owl-item.active .slider-item .container .slider-content .action-wrapper {
+    animation: fadeInUp 1500ms; }
+  .outsourcing-sec .owl-nav {
+    display: none; }
+  .outsourcing-sec .owl-dots {
+    background-color: #e7e7e7;
+    position: absolute;
+    bottom: -17px;
+    left: 50%;
+    transform: translateX(-50%);
     width: 100%;
-    height: 10px;
-    margin-right: 37px;
-    border: solid 2px #0c254e; }
-    .owl-dots .owl-dot:last-child {
-      margin-right: 0; }
-    .owl-dots .owl-dot.active {
-      background-color: #0c254e;
-      opacity: 1; }
+    max-width: 1440px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: flex-end; }
+    .outsourcing-sec .owl-dots .owl-dot {
+      background-color: #164a9e;
+      opacity: 0.5;
+      border: solid 2px #0c254e;
+      width: 100%;
+      height: 10px;
+      border: solid 2px #0c254e; }
+      .outsourcing-sec .owl-dots .owl-dot:last-child {
+        margin-right: 0; }
+      .outsourcing-sec .owl-dots .owl-dot.active {
+        background-color: #0c254e;
+        opacity: 1; }
+
+.pt {
+  padding-top: 30px; }
+
+.scroll {
+  height: 1000px;
+  background-color: lightgreen; }
 
 @media screen and (max-width: 769px) {
   .title-wrapper {
@@ -4136,12 +4140,12 @@ a {
   width: 100%; }
 
 header {
-  padding: 15px; }
-  header .fixed-nav {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000; }
+  padding: 15px;
+  z-index: 999; }
+  header nav {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+  header .fixed-top {
+    z-index: 11111111 !important; }
   header ul li {
     padding: 0 10px; }
     header ul li a {
@@ -4213,7 +4217,9 @@ footer {
   position: relative;
   background-image: url("./../images/hero.jpg");
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  height: 87vh;
+  filter: grayscale(1); }
   .main-hero .hero-content {
     position: absolute;
     text-align: center;
@@ -4331,8 +4337,7 @@ footer {
     .home-page .icon-box img {
       width: 70% !important; }
   .home-page .event-section {
-    position: relative;
-    padding: 80px 0; }
+    position: relative; }
     .home-page .event-section .crafting-sec {
       display: flex;
       justify-content: space-between; }
@@ -4443,40 +4448,38 @@ footer {
       .home-page .event-section .software-specific .card .card-body .icon-box {
         width: 72px;
         height: 72px; }
-    .home-page .event-section .acquainted-sec {
-      margin: 30px 0; }
-      .home-page .event-section .acquainted-sec .card {
-        color: #ffffff !important;
-        width: 300px;
-        padding: 123px 0 58px;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        overflow: hidden;
-        margin: 20px; }
-      .home-page .event-section .acquainted-sec .card-header {
-        padding-top: 98px;
-        text-align: center;
-        position: relative;
-        border-bottom: unset; }
-        .home-page .event-section .acquainted-sec .card-header img {
-          width: 172px;
-          height: 224px;
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%); }
-      .home-page .event-section .acquainted-sec .image-container {
-        white-space: nowrap;
-        /* Prevent line breaks */ }
-      .home-page .event-section .acquainted-sec .image-container img {
-        display: inline-block;
-        /* Display images as inline-block elements */
-        vertical-align: middle;
-        /* Align images vertically */
-        margin-right: 10px;
-        /* Add some space between images */ }
-      .home-page .event-section .acquainted-sec .card-body {
-        padding: 124px 32px 0; }
+    .home-page .event-section .acquainted-sec .card {
+      color: #ffffff !important;
+      width: 300px;
+      padding: 123px 0 58px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      margin: 20px; }
+    .home-page .event-section .acquainted-sec .card-header {
+      padding-top: 98px;
+      text-align: center;
+      position: relative;
+      border-bottom: unset; }
+      .home-page .event-section .acquainted-sec .card-header img {
+        width: 172px;
+        height: 224px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); }
+    .home-page .event-section .acquainted-sec .image-container {
+      white-space: nowrap;
+      /* Prevent line breaks */ }
+    .home-page .event-section .acquainted-sec .image-container img {
+      display: inline-block;
+      /* Display images as inline-block elements */
+      vertical-align: middle;
+      /* Align images vertically */
+      margin-right: 10px;
+      /* Add some space between images */ }
+    .home-page .event-section .acquainted-sec .card-body {
+      padding: 124px 32px 0; }
     .home-page .event-section .card-orange {
       background-color: #ff5f0f !important; }
     .home-page .event-section .card-green {
@@ -4485,42 +4488,45 @@ footer {
       background-color: #ff84be !important; }
     .home-page .event-section .card-blue {
       background-color: #354277 !important; }
-    .home-page .event-section blockquote {
-      margin: 30px 0; }
-      .home-page .event-section blockquote .author {
-        display: flex;
-        align-items: center;
-        margin: 10px 0;
-        padding: 10px 50px; }
-        .home-page .event-section blockquote .author .profile-picture {
-          width: 50px;
-          height: 50px;
-          border-radius: 50%;
-          /* This creates a circular shape */
-          background-image: url("../../images/person.png");
-          /* Add your image path here */
-          background-size: cover;
-          background-position: center;
-          margin-right: 10px; }
-        .home-page .event-section blockquote .author .details h2 {
-          margin: 0; }
-        .home-page .event-section blockquote .author .details p {
-          margin: 0; }
-    .home-page .event-section blockquote h1 {
-      font-size: 4rem; }
-    .home-page .event-section blockquote p {
-      padding: 0px 55px; }
-    .home-page .event-section blockquote p::before,
-    .home-page .event-section blockquote p::after {
-      content: "“";
-      font-family: Georgia;
-      font-size: 4rem;
-      margin: -2rem 0 0 -2rem;
-      position: absolute;
-      opacity: 0.5; }
-    .home-page .event-section blockquote p::after {
-      content: "”";
-      margin: -9rem -3rem 0 21rem; }
+    .home-page .event-section .have-to-Say-sec {
+      padding-bottom: 100px; }
+      .home-page .event-section .have-to-Say-sec blockquote {
+        margin: 30px 0;
+        border-right: 1px solid; }
+        .home-page .event-section .have-to-Say-sec blockquote .author {
+          display: flex;
+          align-items: center;
+          margin: 10px 0;
+          padding: 10px 50px; }
+          .home-page .event-section .have-to-Say-sec blockquote .author .profile-picture {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            /* This creates a circular shape */
+            background-image: url("../../images/person.png");
+            /* Add your image path here */
+            background-size: cover;
+            background-position: center;
+            margin-right: 10px; }
+          .home-page .event-section .have-to-Say-sec blockquote .author .details h2 {
+            margin: 0; }
+          .home-page .event-section .have-to-Say-sec blockquote .author .details p {
+            margin: 0; }
+      .home-page .event-section .have-to-Say-sec blockquote h1 {
+        font-size: 4rem; }
+      .home-page .event-section .have-to-Say-sec blockquote p {
+        padding: 0px 55px; }
+      .home-page .event-section .have-to-Say-sec blockquote p::before,
+      .home-page .event-section .have-to-Say-sec blockquote p::after {
+        content: "“";
+        font-family: Georgia;
+        font-size: 4rem;
+        margin: -2rem 0 0 -2rem;
+        position: absolute;
+        opacity: 0.5; }
+      .home-page .event-section .have-to-Say-sec blockquote p::after {
+        content: "”";
+        margin: -9rem -3rem 0 21rem; }
 
 @media screen and (max-width: 580px) {
   .home-page .event-section .outsourcing-sec .card {
@@ -4538,7 +4544,7 @@ footer {
       width: 72px;
       height: 72px; } }
 .experties-sec {
-  padding: 100px 0; }
+  padding: 30px 0; }
   .experties-sec .vision-wrap,
   .experties-sec .core-values-wrap {
     background-image: url("../images/expertise.jpg");

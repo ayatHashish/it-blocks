@@ -24,10 +24,14 @@
     }
   }
 
+
+            
+
   /*start event-section  */
   .event-section {
     position: relative;
-    padding: 80px 0;
+ 
+    // padding: 80px 0;
 
     .crafting-sec {
       display: flex;
@@ -210,7 +214,7 @@
     }
 
     .acquainted-sec {
-      margin: 30px 0;
+    
       .card {
         color: $pure-white !important;
         width: 300px;
@@ -344,8 +348,12 @@
     //     }
     //   }
     // }
-    blockquote {
+
+    .have-to-Say-sec{
+      padding-bottom: 100px; 
+       blockquote {
       margin: 30px 0;
+      border-right: 1px solid ;
       .author {
         display: flex;
         align-items: center;
@@ -395,6 +403,9 @@
       content: "”";
       margin: -9rem -3rem 0 21rem;
     }
+
+    }
+  
   }
 }
 
