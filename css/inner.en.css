@@ -233,6 +233,22 @@ a {
   height: 1000px;
   background-color: lightgreen; }
 
+#goTop {
+  position: fixed;
+  z-index: 999;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 20px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.3);
+  border: none;
+  opacity: 0;
+  transition: opacity 0.4s linear; }
+
+#goTop.is-visible {
+  opacity: 1; }
+
 @media screen and (max-width: 769px) {
   .title-wrapper {
     padding-bottom: 50px; } }
@@ -4188,6 +4204,9 @@ footer {
     color: #0862ff; }
   footer h6 img {
     width: 200px; }
+  footer .action-wrapper-footer {
+    text-align: right;
+    margin: 0 125px; }
 
 @media screen and (max-width: 1199px) {
   footer .footer-top h1 {
